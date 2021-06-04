@@ -1,0 +1,74 @@
+{
+  "games": [
+    {
+      "name": "The Witcher 3",
+      "image": "./covers/the_witcher_3",
+      "release_year": 2015,
+      "category": "PC",
+      "score": 93
+    },
+    {
+      "name": "Dark Souls Remastered",
+      "image": "./covers/dark_souls_remastered",
+      "release_year": 2018,
+      "category": "PC",
+      "score": 84
+    },
+    {
+      "name": "Fortnite",
+      "image": "./covers/fortnite",
+      "release_year": 2017,
+      "category": "PC",
+      "score": 81
+    },
+    {
+      "name": "GTA V",
+      "image": "./covers/gta_v",
+      "release_year": 2015,
+      "category": "PC",
+      "score": 96
+    },
+    {
+      "name": "Minecraft",
+      "image": "./covers/minecraft",
+      "release_year": 2011,
+      "category": "PC",
+      "score": 93
+    },
+    {
+      "name": "Portal 2",
+      "image": "./covers/portal_2",
+      "release_year": 2011,
+      "category": "PC",
+      "score": 95
+    },
+    {
+      "name": "Red Dead Redemption 2",
+      "image": "./covers/rdr_2",
+      "release_year": 2012,
+      "category": "PS4",
+      "score": 97
+    },
+    {
+      "name": "Skyrim",
+      "image": "./covers/skyrim",
+      "release_year": 2011,
+      "category": "PC",
+      "score": 94
+    },
+    {
+      "name": "The Last Of Us",
+      "image": "./covers/tlou",
+      "release_year": 2013,
+      "category": "PS3",
+      "score": 95
+    },
+    {
+      "name": "The Legend of Zelda - Breath of The Wild",
+      "image": "./covers/the_legend_of_zelda_breath_of_the_wild",
+      "release_year": 2017,
+      "category": "Switch",
+      "score": 97
+    }
+  ]
+}
