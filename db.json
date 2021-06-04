@@ -1,6 +1,7 @@
 {
   "games": [
     {
+      "id": 1,
       "name": "The Witcher 3",
       "image": "./covers/the_witcher_3",
       "release_year": 2015,
@@ -8,6 +9,7 @@
       "score": 93
     },
     {
+      "id": 2,
       "name": "Dark Souls Remastered",
       "image": "./covers/dark_souls_remastered",
       "release_year": 2018,
@@ -15,6 +17,7 @@
       "score": 84
     },
     {
+      "id": 3,
       "name": "Fortnite",
       "image": "./covers/fortnite",
       "release_year": 2017,
@@ -22,6 +25,7 @@
       "score": 81
     },
     {
+      "id": 4,
       "name": "GTA V",
       "image": "./covers/gta_v",
       "release_year": 2015,
@@ -29,6 +33,7 @@
       "score": 96
     },
     {
+      "id": 5,
       "name": "Minecraft",
       "image": "./covers/minecraft",
       "release_year": 2011,
@@ -36,6 +41,7 @@
       "score": 93
     },
     {
+      "id": 6,
       "name": "Portal 2",
       "image": "./covers/portal_2",
       "release_year": 2011,
@@ -43,6 +49,7 @@
       "score": 95
     },
     {
+      "id": 7,
       "name": "Red Dead Redemption 2",
       "image": "./covers/rdr_2",
       "release_year": 2012,
@@ -50,6 +57,7 @@
       "score": 97
     },
     {
+      "id": 8,
       "name": "Skyrim",
       "image": "./covers/skyrim",
       "release_year": 2011,
@@ -57,6 +65,7 @@
       "score": 94
     },
     {
+      "id": 9,
       "name": "The Last Of Us",
       "image": "./covers/tlou",
       "release_year": 2013,
@@ -64,6 +73,7 @@
       "score": 95
     },
     {
+      "id": 10,
       "name": "The Legend of Zelda - Breath of The Wild",
       "image": "./covers/the_legend_of_zelda_breath_of_the_wild",
       "release_year": 2017,
