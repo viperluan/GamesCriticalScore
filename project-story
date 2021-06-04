@@ -1,0 +1,48 @@
+#Criação do projeto#
+
+  -----------------
+  -- Obrigatório --
+  ----------------- 
+  ################################
+  # Utilizar Framework Bootstrap #
+  ################################
+
+ - Criar um repositório no github.
+  Obs: Utilizar commits claros, objetivos e que identifiquem as alterações.
+
+ - Escolher 10 games e coletar dados sobre eles.
+
+ - Estruturar os dados dos games num arquivo .JSON da seguinte forma:
+    
+    # Nome
+    # Imagem
+    # Ano de lançamento
+    # Categoria
+    # Nota de 0 a 10
+
+ - Utilizar a biblioteca Json-Server para consumir os dados.
+
+ - Listar o conteúdo em cards que contenham:
+    
+    # Imagem, nome, ano de lançamento, categoria e a nota.
+
+ - Características para criação do layout:
+    
+    # Fonte Montserrat
+    # Cabeçalho com título de 18px centralizado
+    # Listar 3 cards por linha centralizados no corpo da página
+    # Utilizar cores com sinergia
+
+ - Criar arquivo README contendo informações para executar o projeto.
+
+
+--------------------------------------------------  
+-- Passos para desenvolver o projeto do desafio -- 
+--------------------------------------------------
+
+#1 - Criar repositório.
+#2 - Criar arquivo games-list.json.
+#3 - Testar biblioteca JSON-Server.
+#4 - Verificar a integridade dos dados.
+#5 - Consumir os dados da fake API através do front-end desenvolvido.
+#6 - Comitar a cada modificação do projeto.
