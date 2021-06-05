@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import logo from '../../game-images/witcher3.png';
 
 import './style.css';
