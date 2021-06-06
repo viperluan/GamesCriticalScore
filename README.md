@@ -8,6 +8,8 @@ Neste repositório contém todo código desenvolvido por mim, para [este desafio
 
 O projeto simula um banco de dados utilizando a biblioteca JSON-Server, onde estão listados 10 jogos com: ID, Nome, Imagem, Ano de Lançamento, Categoria e Nota para cada jogo na lista.
 
+Para consumir os dados do "back-end", foi utilizado a biblioteca React para construção do layout.
+
 ## Instruções de uso
 
 ### Requisitos
