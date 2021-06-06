@@ -10,14 +10,14 @@
   margin: 0px 12px 40px 12px;
 }
 
-.title {
+.card-title {
   margin: 0;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 }
 
-.title::after {
+.card-title::after {
   content: '';
   display: block;
   margin: 8px auto 20px;

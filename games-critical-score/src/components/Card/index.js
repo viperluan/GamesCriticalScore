@@ -6,7 +6,7 @@ import './style.css';
 function index() {
   return (
     <div className="card-container">
-      <h1 className="title">The Witcher 3</h1>
+      <h1 className="card-title">The Witcher 3</h1>
       <div className="game-content">
         <img className="game-image" src={logo} alt="The Witcher 3" />
         <ul className="info">
