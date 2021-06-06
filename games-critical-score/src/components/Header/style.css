@@ -3,3 +3,10 @@
   color: #537fa6;
   margin: 60px 0px;
 }
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
