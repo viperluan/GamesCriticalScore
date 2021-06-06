@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-import Card from './components/Card';
 import Header from './components/Header';
+import Card from './components/Card';
 
 function App() {
   const [gameList, setGameList] = useState([]);
@@ -11,7 +11,7 @@ function App() {
     const getGameList = async () => {
       const response = await axios.get('http://localhost:8000/games');
 
-      console.log(response.data);
+      setGameList(response.data);
     };
 
     getGameList();
@@ -19,20 +19,23 @@ function App() {
 
   return (
     <>
-      <Header />
       <main className="container">
+        <Header />
         <div className="row">
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
-          <Card className="col-4" />
+          {gameList.map(
+            ({ id, name, image, release_year, category, score }) => {
+              return (
+                <Card
+                  key={id}
+                  name={name}
+                  image={image}
+                  year={release_year}
+                  category={category}
+                  score={score}
+                />
+              );
+            }
+          )}
         </div>
       </main>
     </>
